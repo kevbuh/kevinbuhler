@@ -70,10 +70,10 @@
 }
 
 .codeBig {
-  background: #fafafa;
+  /* background: #fafafa; */
   border-radius: 5px;
   padding: 0.75rem;
-  font-size: 2.7rem;
+  font-size: 3rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
@@ -102,8 +102,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #000000;
+  border-color: #000000;
 }
 
 .card h2 {
