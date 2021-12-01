@@ -29,18 +29,18 @@ export default function Home() {
 
           <a href="https://eyecandy.vercel.app/" className={styles.card}>
             <h2>Eye Candy &rarr;</h2>
-            <p>Vote on your favorite looking movies or TV shows!</p>
-          </a>
-{/* 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <p>AI Powered Eye Candy</p>
           </a>
 
           <a
+            href="https://modcopters.com"
+            className={styles.card}
+          >
+            <h2>Modcopters &rarr;</h2>
+            <p>Modifying Quadcopters</p>
+          </a>
+
+          {/* <a
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
