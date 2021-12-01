@@ -40,15 +40,15 @@ export default function Home() {
             <p>Modifying Quadcopters</p>
           </a>
 
-          {/* <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          <a
+            href="https://gravityleds.com"
             className={styles.card}
           >
-            <h2>Deploy &rarr;</h2>
+            <h2>Gravity LEDs &rarr;</h2>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              High Quality LEDs
             </p>
-          </a> */}
+          </a>
         </div>
       </main>
 
