@@ -52,6 +52,14 @@
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
+@media only screen and (max-width: 500px) {
+
+   title { 
+      font-size: 1em; 
+   }
+
+}
+
 .title,
 .description {
   text-align: center;
@@ -85,7 +93,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 50%;
+  max-width: 800px;
   margin-top: 3rem;
 }
 
