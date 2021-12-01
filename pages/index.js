@@ -27,29 +27,40 @@ export default function Home() {
           <code className={styles.code}>accelerating the future</code>
         </p>
 
-        <div className={styles.grid}>
-          <a href="https://nextnote.io" className={styles.card}>
+        <div>
+          <a href="https://nextnote.io">
+
             <h2>NextNote &rarr;</h2>
             <p>Intelligent Note Taking</p>
+
           </a>
 
-          <a href="https://eyecandy.vercel.app/" className={styles.card}>
+          <a href="https://eyecandy.vercel.app/" >
+
+
             <h2>Eye Candy &rarr;</h2>
             <p>AI Powered Eye Candy</p>
+
+
           </a>
 
           <a
             href="https://modcopters.com"
-            className={styles.card}
+
           >
+
+
             <h2>Modcopters &rarr;</h2>
             <p>Modifying Quadcopters</p>
+
+
           </a>
 
           <a
             href="https://gravityleds.com"
-            className={styles.card}
+
           >
+            
             <h2>Gravity LEDs &rarr;</h2>
             <p>
               High Quality LEDs

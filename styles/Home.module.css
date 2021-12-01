@@ -52,10 +52,10 @@
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 750px) {
 
    .title { 
-      font-size: 1em; 
+      font-size: 2em; 
    }
 
 }
@@ -95,6 +95,7 @@
   flex-wrap: wrap;
   max-width: 800px;
   margin-top: 3rem;
+  /* padding: 2rem; */
 }
 
 .card {
