@@ -28,7 +28,7 @@ export default function Home() {
         </p>
 
         <div>
-          <a href="https://nextnote.io">
+          <a href="https://kevinbuhler.com">
 
             <h2>NextNote &rarr;</h2>
             <p>Intelligent Note Taking</p>
@@ -45,13 +45,13 @@ export default function Home() {
           </a>
 
           <a
-            href="https://modcopters.com"
+            href="https://kevinbuhler.com"
 
           >
 
 
-            <h2>Modcopters &rarr;</h2>
-            <p>Modifying Quadcopters</p>
+            <h2>NextFind &rarr;</h2>
+            <p>Find the next big thing</p>
 
 
           </a>
