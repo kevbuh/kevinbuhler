@@ -14,7 +14,11 @@ export default function Home() {
       <main className={styles.main}>
         <div>
           <h1 className={styles.title}>
-            <a href="https://kevinbuhler.com"><code className={styles.codeBig}>Kevin Buhler</code></a>
+            <a href="https://kevinbuhler.com">
+              {/* <code className={styles.codeBig}> */}
+                Kevin Buhler
+                {/* r</code> */}
+              </a>
           </h1>
         </div>
 
