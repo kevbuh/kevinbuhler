@@ -24,7 +24,7 @@ export default function Home() {
 
         <p className={styles.description}>
           {/* Building the future{' '} */}
-          <code className={styles.code}>lukeeeeeee</code>
+          <code className={styles.code}>accelerating the future.</code>
         </p>
 
         <div>
