@@ -35,15 +35,6 @@ export default function Home() {
 
           </a>
 
-          <a href="https://eyecandy.vercel.app/" >
-
-
-            <h2>Eye Candy &rarr;</h2>
-            <p>AI Powered Eye Candy</p>
-
-
-          </a>
-
           <a
             href="https://kevinbuhler.com"
 
@@ -55,6 +46,16 @@ export default function Home() {
 
 
           </a>
+          
+          <a href="https://eyecandy.vercel.app/" >
+
+
+            <h2>Eye Candy &rarr;</h2>
+            <p>AI Powered Eye Candy</p>
+
+
+          </a>
+
 
           <a
             href="https://gravityleds.com"
