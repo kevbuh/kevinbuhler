@@ -36,7 +36,7 @@ export default function Home() {
           </div>
           <div className={styles.text}>
           <a
-            href="https://kevinbuhler.com"
+            href="https://nextfind.vercel.app"
           >
             <h2>NextFind &rarr;</h2>
             <p>Find The Future</p>
@@ -61,6 +61,7 @@ export default function Home() {
             </p>
           </a>
         </div>
+        {/* <div>test</div> */}
 
         </div>
       </main>
