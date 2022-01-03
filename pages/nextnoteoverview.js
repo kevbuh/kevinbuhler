@@ -15,9 +15,12 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <p className={styles.description}>
-          <h1 className={styles.apps}>NEXT NOTE</h1>
-        </p>
+        <div>
+          <h1 className={styles.kevin}>Next Note</h1>
+          {/* <p className={styles.description}>
+            <p>Accelerating the Future</p>
+          </p> */}
+        </div>
         <div>
           <Image src="/nnpink.png" alt="NEXT" width={100} height={100} />
         </div>
