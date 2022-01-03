@@ -18,7 +18,8 @@
 }
 
 .text {
-  font-family: Menlo, monospace, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: Menlo, monospace, "Trebuchet MS", "Lucida Sans Unicode",
+    "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 .footer {
@@ -28,6 +29,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  padding-bottom: 10vh;
 }
 
 .footer a {
@@ -52,16 +55,14 @@
   margin: 0;
   line-height: 1.15;
   font-size: 2.4em;
-    font-family: Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+  font-family: Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
 @media screen and (max-width: 750px) {
-
-   .title { 
-      font-size: 2em; 
-   }
-
+  .title {
+    font-size: 2em;
+  }
 }
 
 .title,
@@ -79,6 +80,15 @@
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.codesmall {
+  /* background: #fafafa; */
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 0.8rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
@@ -122,6 +132,33 @@
 .card:active {
   color: #000000;
   border-color: #000000;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+}
+
+.apps {
+  /* flex: auto; */
+  flex: content;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5vh;
+}
+
+.apps2 {
+  /* flex: auto; */
+  display: flex;
+  flex-direction: row;
+  /* margin-right: 5em; */
+  /* justify-content: space-between; */
+  /* align-items: flex-end; */
+  margin-top: 5vh;
+}
+
+.innerapp {
+  padding-right: 1rem;
 }
 
 .card h2 {

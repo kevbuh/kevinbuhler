@@ -15,42 +15,37 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <div>
-          {/* <h1 className={styles.code}>
-            <a href="https://kevinbuhler.com">NEXT NOTE</a>
-          </h1> */}
-        </div>
-
-        <Image src="/nnpink.png" alt="NEXT" width={100} height={100} />
-
         <p className={styles.description}>
-          <p className={styles.code}>NEXT NOTE</p>
+          <h1 className={styles.apps}>NEXT NOTE</h1>
         </p>
-
-        {/* <div>
-          <div className={styles.text}>
-            <a href="https://nextnote.io">
-              <h2>NextNote &rarr;</h2>
-              <p>Intelligent Note Taking</p>
-            </a>
+        <div className={styles.apps2}>
+          <Image src="/nnpink.png" alt="NEXT" width={100} height={100} />
+        </div>
+        <div className={styles.apps2}>
+          <p>Intelligent Note Taking</p>
+        </div>
+        <div className={styles.apps2}>
+          <div className={styles.innerapp}>
+            <Image src="/sim3.png" alt="NEXT" width={210} height={450} />
           </div>
-        </div> */}
-        <div>
-          <p className={styles.code}>
-            <a href="https://nextnote.io">
-              Visit the test website version here.
-            </a>
-          </p>
+          <div className={styles.innerapp}>
+            <Image src="/sim6.png" alt="NEXT" width={210} height={450} />
+          </div>
+          <div className={styles.innerapp}>
+            <Image src="/sim8.png" alt="NEXT" width={210} height={450} />
+          </div>
         </div>
-        <div>
-          <span className={styles.logo}>
-            <Image src="/download-9.jpg" alt="NEXT" width={210} height={70} />
-          </span>
-        </div>
-        <div>
-          <span className={styles.logo}>
-            <Image src="/download-3.png" alt="NEXT" width={200} height={60} />
-          </span>
+        <div className={styles.apps2}>
+          <div className={styles.innerapp}>
+            <span>
+              <Image src="/download-9.jpg" alt="NEXT" width={140} height={49} />
+            </span>
+          </div>
+          <div>
+            <span>
+              <Image src="/download-3.png" alt="NEXT" width={130} height={46} />
+            </span>
+          </div>
         </div>
       </main>
 
@@ -60,12 +55,12 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {/* Powered by{' '} */}
-          {/* <span className={styles.logo}>
-            <Image src="/nnpink.png" alt="NEXT" width={22} height={22} />
-          </span> */}
           GitHub
         </a>
+
+        <p>
+          <a href="https://nextnote.io">Visit the test website version here.</a>
+        </p>
       </footer>
     </div>
   );
