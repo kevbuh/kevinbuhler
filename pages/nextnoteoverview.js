@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>NEXT NOTE</title>
         <meta name="description" content="Kevin Buhler's Website" />
@@ -18,7 +18,7 @@ export default function Home() {
         <p className={styles.description}>
           <h1 className={styles.apps}>NEXT NOTE</h1>
         </p>
-        <div className={styles.apps2}>
+        <div>
           <Image src="/nnpink.png" alt="NEXT" width={100} height={100} />
         </div>
         <div className={styles.apps2}>
@@ -59,7 +59,7 @@ export default function Home() {
         </a>
 
         <p>
-          <a href="https://nextnote.io">Visit the test website version here.</a>
+          <a href="https://nextnote.io">Visit the Deprecated Website Here.</a>
         </p>
       </footer>
     </div>
