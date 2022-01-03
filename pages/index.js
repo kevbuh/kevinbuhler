@@ -32,7 +32,7 @@ export default function Home() {
 
         <div>
           <div className={styles.text}>
-            <a href="https://nextnote.io">
+            <a href="https://kevinbuhler.com/nextnoteoverview">
               <h2>NextNote &rarr;</h2>
               <p>Intelligent Note Taking</p>
             </a>
