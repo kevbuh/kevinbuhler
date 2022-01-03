@@ -102,20 +102,27 @@ export default function Home() {
         </div>
         <div className={styles.info}>
           <h2 className={styles.smallTitle}>Skills</h2>
+          <p>Technologies I have worked with:</p>
           <div>
             <li>React Native</li>
             <li>Django</li>
             <li>Redux</li>
             <li>Postgres</li>
-          </div>
-          <div>
-            <p>Also worked with:</p>
             <li>React</li>
             <li>TypeScript</li>
             <li>GraphQL</li>
             <li>Redis</li>
             <li>NodeJS</li>
             <li>MongoDb</li>
+          </div>
+          <div>
+            <p>Music</p>
+            <li>Astrokev on YouTube</li>
+            <li>Lofi Songs using FL Studio 20 and community sounds</li>
+          </div>
+          <div>
+            <p>Stories</p>
+            <li>Husun</li>
           </div>
         </div>
       </main>
