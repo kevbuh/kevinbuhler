@@ -80,6 +80,10 @@
   font-size: 100%;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 .code {
   background: #fafafa;
   border-radius: 5px;

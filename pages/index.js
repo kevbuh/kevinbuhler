@@ -113,15 +113,22 @@ export default function Home() {
             <li>GraphQL</li>
             <li>Redis</li>
             <li>NodeJS</li>
-            <li>MongoDb</li>
+            <li>MongoDB</li>
+            <li>Docker</li>
+            <li>Heroku</li>
           </div>
           <div>
             <p>Music</p>
-            <li>Astrokev on YouTube</li>
+            <a
+              className={styles.underline}
+              href="https://www.youtube.com/channel/UCuOz_PYAm55bt-1php4dZeQ/videos"
+            >
+              <li>Songs</li>
+            </a>
             <li>Lofi Songs using FL Studio 20 and community sounds</li>
           </div>
           <div>
-            <p>Stories</p>
+            <p>Short Stories</p>
             <li>Husun</li>
           </div>
         </div>
