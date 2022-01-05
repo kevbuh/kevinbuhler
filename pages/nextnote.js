@@ -38,21 +38,44 @@ export default function Home() {
             <Image src="/sim8.png" alt="NEXT" width={210} height={450} />
           </div>
         </div>
+        <br />
+        <br />
+        <br />
+
+        <h3>Coming Soon To: </h3>
         <div className={styles.apps2}>
-          <div className={styles.innerapp}>
-            <span>
-              <Image src="/download-9.jpg" alt="NEXT" width={140} height={49} />
-            </span>
-          </div>
           <div>
             <span>
-              <Image src="/download-3.png" alt="NEXT" width={130} height={46} />
+              <Image
+                src="/Apple_logo_black.svg"
+                alt="NEXT"
+                width={100}
+                height={50}
+              />
+            </span>
+          </div>
+          <div className={styles.innerapp}>
+            <span>
+              <Image
+                src="/Android_symbol_green_RGB.png"
+                alt="NEXT"
+                width={90}
+                height={50}
+              />
             </span>
           </div>
         </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
       </main>
 
       <footer className={styles.footer}>
+        <br />
+
         <a
           href="https://github.com/kevbuh/nextnoteapp"
           target="_blank"
@@ -60,7 +83,7 @@ export default function Home() {
         >
           GitHub
         </a>
-
+        <br />
         <p>
           <a href="https://nextnote.io">Visit the Deprecated Website Here.</a>
         </p>
