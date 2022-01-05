@@ -79,7 +79,7 @@ export default function Home() {
           <div className={styles.apps3}>
             <div className={styles.smallcard}>
               <a href="https://kevinbuhler.com/nextnote">
-                <h2>NextNote &rarr;</h2>
+                <h2>Next Note &rarr;</h2>
                 <p>Intelligent Note Taking</p>
               </a>
             </div>
@@ -90,8 +90,8 @@ export default function Home() {
               </a>
             </div>
             <div className={styles.smallcard}>
-              <a href="https://nextfind.vercel.app">
-                <h2>NextFind &rarr;</h2>
+              <a href="https://nufind.vercel.app">
+                <h2>NuFind &rarr;</h2>
                 <p>Find The Next Big Thing</p>
               </a>
             </div>
