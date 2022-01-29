@@ -15,52 +15,62 @@ export default function Home() {
       </Head>
 
       <main className={styles.main2}>
-        <div>
-          <h1 className={styles.kevin}>Kevin Buhler</h1>
-          <p className={styles.description}>
-            <p>Accelerating the Future</p>
-          </p>
+        <div className={styles.top_kevin}>
+          <div className={styles.top_kevin_div}>
+            <p className={styles.top_kevin_text}>Kevin Buhler</p>
+          </div>
+
+          <div>
+            <a
+              href="https://github.com/kevbuh"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.spacing}
+            >
+              <Image
+                src="/GitHub-Mark/PNG/GitHub-Mark-64px.png"
+                alt="GitHub"
+                width={20}
+                height={20}
+              />
+            </a>
+            <a
+              href="https://twitter.com/kevinbuhler_"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.spacing}
+            >
+              <Image
+                src="/twitter-logo-01282021/Twitter logo/PNG/2021 Twitter logo - black.png"
+                alt="Twitter"
+                width={20}
+                height={20}
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/kevin-buhler/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.spacing}
+            >
+              <Image src="/61109.png" alt="LinkedIn" width={20} height={20} />
+            </a>
+          </div>
+          <div>
+            <p className={styles.description}>
+              <p>
+                Computer Science Student at the University of Colorado Boulder
+              </p>
+            </p>
+          </div>
         </div>
-        <div>
-          <a
-            href="https://github.com/kevbuh"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.spacing}
-          >
-            <Image
-              src="/GitHub-Mark/PNG/GitHub-Mark-64px.png"
-              alt="GitHub"
-              width={20}
-              height={20}
-            />
-          </a>
-          <a
-            href="https://twitter.com/kevinbuhler_"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.spacing}
-          >
-            <Image
-              src="/twitter-logo-01282021/Twitter logo/PNG/2021 Twitter logo - black.png"
-              alt="Twitter"
-              width={20}
-              height={20}
-            />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/kevin-buhler/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.spacing}
-          >
-            <Image src="/61109.png" alt="LinkedIn" width={20} height={20} />
-          </a>
-        </div>
-        <div className={styles.info}>
+
+        <div className={styles.project_div}>
           <h2 className={styles.smallTitle}>About</h2>
+        </div>
+        <div className={styles.info_div}>
           <p>Computer Science (BS) at the University of Colorado Boulder</p>
-          <p>3.925 GPA &rarr; 4.0 GPA in Computer Science</p>
+          <p>3.93 GPA &rarr; 4.0 GPA in Computer Science</p>
           <br />
           <p>
             Specializing in mobile app development for both iOS and Android. I
@@ -74,37 +84,69 @@ export default function Home() {
             world.
           </p>
         </div>
-        <div className={styles.info}>
+
+        <div className={styles.project_div}>
           <h2 className={styles.smallTitle}>Projects:</h2>
-          <div className={styles.apps3}>
+        </div>
+        <div>
+          <div className={styles.full_screen}>
+            <div className={styles.smallcard}>
+              <a href="https://nextnote.io">
+                <h2 className={styles.project_text}>Next Note</h2>
+              </a>
+              <p>Dec 2021 - Present</p>
+              {/* Add some pictures and stuff right here */}
+              <div className={styles.apps3}>
+                <div className={styles.smallcard}>
+                  <a href="nextnote">
+                    <h3>More Info &rarr;</h3>
+                    {/* <p>High Quality LEDs</p> */}
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={styles.full_screen}>
             <div className={styles.smallcard}>
               <a href="https://kevinbuhler.com/nextnote">
-                <h2>Next Note &rarr;</h2>
-                <p>Intelligent Note Taking</p>
+                <h2 className={styles.project_text}>Jotalot</h2>
               </a>
+              <p>Dec 2021 - Present</p>
+              {/* Add some pictures and stuff right here */}
+              <div className={styles.apps3}>
+                <div className={styles.smallcard}>
+                  <a href="https://kevinbuhler.com/nextnote">
+                    <h3>More Info &rarr;</h3>
+                    {/* <p>High Quality LEDs</p> */}
+                  </a>
+                </div>
+              </div>
             </div>
-            <div className={styles.smallcard}>
-              <a href="https://eyecandy.vercel.app/">
-                <h2>Eye Candy &rarr;</h2>
-                <p>AI Powered Eye Candy</p>
-              </a>
-            </div>
-            <div className={styles.smallcard}>
-              <a href="https://nufind.vercel.app">
-                <h2>NuFind &rarr;</h2>
-                <p>Find The Next Big Thing</p>
-              </a>
-            </div>
+          </div>
+          <div className={styles.full_screen}>
             <div className={styles.smallcard}>
               <a href="https://gravityleds.com">
-                <h2>Gravity LEDs &rarr;</h2>
-                <p>High Quality LEDs</p>
+                <h2 className={styles.project_text}>Gravity LEDs</h2>
               </a>
+              <p>Dec 2021 - Present</p>
+              {/* Add some pictures and stuff right here */}
+              <div className={styles.apps3}>
+                <div className={styles.smallcard}>
+                  <a href="https://gravityleds.com">
+                    <h3>More Info &rarr;</h3>
+                    {/* <p>High Quality LEDs</p> */}
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div className={styles.info}>
+
+        <div className={styles.project_div}>
           <h2 className={styles.smallTitle}>Skills</h2>
+        </div>
+        <div className={styles.info_div}>
+          {/* <div */}
           <p>Primary Skills:</p>
           <li>React Native</li>
           <li>Redux</li>
@@ -135,8 +177,10 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className={styles.info}>
-          <h2 className={styles.smallTitle}>Other Skills & Interests</h2>
+        <div className={styles.project_div}>
+          <h2 className={styles.smallTitle}>Extra</h2>
+        </div>
+        <div className={styles.info_div}>
           <div>
             <a
               className={styles.underline}

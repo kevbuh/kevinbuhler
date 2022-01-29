@@ -8,6 +8,21 @@
   height: 100vh;
 }
 
+.top_kevin {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+  /* font-size: 10px; */
+}
+
+.top_kevin_text {
+  font-size: 7em;
+  font-weight: bold;
+}
+
 .main {
   padding: 3rem 0;
   flex: 1;
@@ -189,7 +204,29 @@
 }
 
 .smallTitle {
-  font-size: 1.8vw;
+  font-size: 3em;
+}
+
+.project_div {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+  margin-top: 4em;
+}
+
+.info_div {
+  width: 60vw;
+  font-size: 1.4em;
+}
+
+.project_text {
+  font-size: 4.5em;
+  line-height: 80px;
+  padding: 0;
+  margin: 0;
 }
 
 .innerapp {
