@@ -98,7 +98,7 @@ export default function Home() {
               {/* Add some pictures and stuff right here */}
               <div className={styles.apps3}>
                 <div className={styles.smallcard}>
-                  <a href="nextnote">
+                  <a href="https://nextnote.io">
                     <h3>More Info &rarr;</h3>
                     {/* <p>High Quality LEDs</p> */}
                   </a>
@@ -108,14 +108,14 @@ export default function Home() {
           </div>
           <div className={styles.full_screen}>
             <div className={styles.smallcard}>
-              <a href="https://kevinbuhler.com/nextnote">
+              <a href="https://kevinbuhler.com/jotalot">
                 <h2 className={styles.project_text}>Jotalot</h2>
               </a>
               <p>Dec 2021 - Present</p>
               {/* Add some pictures and stuff right here */}
               <div className={styles.apps3}>
                 <div className={styles.smallcard}>
-                  <a href="https://kevinbuhler.com/nextnote">
+                  <a href="https://kevinbuhler.com/jotalot">
                     <h3>More Info &rarr;</h3>
                     {/* <p>High Quality LEDs</p> */}
                   </a>
@@ -134,7 +134,6 @@ export default function Home() {
                 <div className={styles.smallcard}>
                   <a href="https://gravityleds.com">
                     <h3>More Info &rarr;</h3>
-                    {/* <p>High Quality LEDs</p> */}
                   </a>
                 </div>
               </div>
@@ -146,14 +145,13 @@ export default function Home() {
           <h2 className={styles.smallTitle}>Skills</h2>
         </div>
         <div className={styles.info_div}>
-          {/* <div */}
-          <p>Primary Skills:</p>
+          <h3>Primary Skills:</h3>
           <li>React Native</li>
           <li>Redux</li>
           <li>Django</li>
           <li>PostgreSQL</li>
 
-          <p>Technologies I have worked with:</p>
+          <h3>Technologies I have worked with:</h3>
           <div>
             <li>React</li>
             <li>TypeScript</li>

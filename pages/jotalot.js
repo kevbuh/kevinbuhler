@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>NEXT NOTE</title>
+        <title>JOTALOT</title>
         <meta name="description" content="Kevin Buhler's Website" />
         <link
           rel="icon"
@@ -16,7 +16,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <div>
-          <h1 className={styles.kevin}>Next Note</h1>
+          <h1 className={styles.kevin}>Jotalot</h1>
           {/* <p className={styles.description}>
             <p>Accelerating the Future</p>
           </p> */}
