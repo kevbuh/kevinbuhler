@@ -29,7 +29,7 @@ export default function Home() {
         </div>
         <div className={styles.apps2}>
           <div className={styles.innerapp}>
-            <Image src="/sim3.png" alt="NEXT" width={210} height={450} />
+            <Image src="/img_9249.png" alt="NEXT" width={210} height={450} />
           </div>
           <div className={styles.innerapp}>
             <Image src="/sim6.png" alt="NEXT" width={210} height={450} />
@@ -77,7 +77,7 @@ export default function Home() {
         <br />
 
         <a
-          href="https://github.com/kevbuh/nextnoteapp"
+          href="https://github.com/kevbuh/jotalot"
           target="_blank"
           rel="noopener noreferrer"
         >
