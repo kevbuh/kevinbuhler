@@ -29,7 +29,12 @@ export default function Home() {
         </div>
         <div className={styles.apps2}>
           <div className={styles.innerapp}>
-            <Image src="/img_9249.png" alt="NEXT" width={210} height={450} />
+            <Image
+              src="/jotalot_logo.jpg"
+              alt="NEXT"
+              width={210}
+              height={450}
+            />
           </div>
           <div className={styles.innerapp}>
             <Image src="/sim6.png" alt="NEXT" width={210} height={450} />
