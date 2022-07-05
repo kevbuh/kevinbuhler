@@ -1,11 +1,9 @@
-import Link from "next/link";
-
 function Extra() {
   return (
     <div className="hero">
       <div className="hero-content ">
         <div className="">
-          <h1 className="text-5xl font-bold text-center mb-8">Extra</h1>
+          <h1 className="text-5xl font-bold text-center mb-8 mt-10">Extra</h1>
           <div>
             <div>
               <div>
